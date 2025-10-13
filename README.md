@@ -15,7 +15,7 @@ It also includes a **graceful fallback system** — returning the `default` expo
 ✅ Clear error handling for missing or invalid files  
 ✅ Fully ESM project (uses `"type": "module"` in `package.json`)
 
----
+
 
 ## HoW IT WORKS (src/dynamicImport.js) 
 export async function dynamicImport(filePath) {
