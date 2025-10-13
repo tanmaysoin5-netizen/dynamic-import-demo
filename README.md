@@ -34,6 +34,7 @@ export async function dynamicImport(filePath) {
   return module?.default ?? module;
 }
 
+
 Uses import() for dynamic importing
 Detects file type (.mjs, .js, .json)
 Uses JSON import assertions for .json files
